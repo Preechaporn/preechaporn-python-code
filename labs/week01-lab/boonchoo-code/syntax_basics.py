@@ -80,13 +80,13 @@ print("a =", a, "b =", b, "c =", c)
 favorite_color = 'blue'
 
 # Integer variable with the current year
-current_year = 
+current_year = '2'
 
 # Float variable with your favorite number (with decimal)
-favorite_number = 
+favorite_number = '7'
 
 # Boolean variable indicating if you like pizza
-likes_pizza = 
+likes_pizza = False
 
 # Print all variables with descriptive messages
 print("My favorite color is:", favorite_color)
