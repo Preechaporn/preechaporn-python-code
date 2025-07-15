@@ -20,3 +20,5 @@ Phone_number = input("What is your phone number?")
 print("My phone number is ",Phone_number)
 Favorite_hobby = input("What is your favorite hobby?")
 print("My favorite hobby is ",Favorite_hobby)
+
+print("="*50)
