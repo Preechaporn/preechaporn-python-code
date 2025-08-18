@@ -34,6 +34,28 @@ print(f"Is Alice in scores? {scores["Alice"]}")
 print(f"Is 'Frank' in scores? {'Frank' in scores}")
 """
 
+"""
 subjects = ["Math", "Science", "English"]
 default_scores = dict.fromkeys(subjects, 0)
 print(f"Default scores: {default_scores}")
+"""
+
+"""
+text = input("Enter text: ")
+words = text.split()
+count = {}
+
+for w in words:
+    if w in count:
+        count[w] += 1
+    else:
+        count[w] = 1
+
+print(count)
+"""
+
+dict = {}
+string = ["hello"]
+for w in string:
+    dict[w] = 1
+    print(dict)

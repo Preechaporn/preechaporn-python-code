@@ -47,4 +47,4 @@ search_student(1000)
 delete_student(1000)
 show_all()
 delete_student(1001)
-show_all
+show_all()
