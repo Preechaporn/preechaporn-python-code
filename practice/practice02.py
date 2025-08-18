@@ -35,6 +35,9 @@ def show_all():
         for sid,info in students.items():
             print(f"student ID : {sid} name : {(info["name"])} age : {(info["age"])} gpa : {(info["gpa"])}")
 
+def test():
+    print("test")
+
 
 add_student(1000,"pond",20,3.50)
 add_student(1001,"pup",20,4.00)
@@ -44,4 +47,4 @@ search_student(1000)
 delete_student(1000)
 show_all()
 delete_student(1001)
-show_all()
+show_all
