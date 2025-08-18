@@ -15,3 +15,25 @@ print("Type of my_float:", type(my_float))
 print("Type of my_boolean:", type(my_boolean))
 """
 
+"""
+fruits = ["apple", "banana", "orange"]
+
+fruits[0:2] = ["pear", "cherry"]
+print(fruits)  # ['pear', 'cherry', 'orange']
+
+removed_fruit = fruits.pop()     # Remove and return last element
+print(f"Removed: {removed_fruit}")  # apple
+print(fruits)  # ['pear', 'cherry', 'orange', 'grape', 'kiwi']
+"""
+
+"""
+scores = {"Alice": 85, "Bob": 92, "Charlie": 78, "Diana": 96, "Eve": 89}
+
+print(f"Number of students: {len(scores)}")
+print(f"Is Alice in scores? {scores["Alice"]}")
+print(f"Is 'Frank' in scores? {'Frank' in scores}")
+"""
+
+subjects = ["Math", "Science", "English"]
+default_scores = dict.fromkeys(subjects, 0)
+print(f"Default scores: {default_scores}")
