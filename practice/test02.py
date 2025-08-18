@@ -1,13 +1,17 @@
-def add(a,b):
-    total = a+b
-    print("inside add : ",total)
-    return total
+"""
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+print(f"Full name: {first_name *2} {last_name *2}")
+"""
 
-if __name__ == "__main__" :
+"""
+my_string = "Hello Python"
+my_integer = 42
+my_float = 3.14
+my_boolean = False
+print("Type of my_string:", type(my_string))
+print("Type of my_integer:", type(my_integer))
+print("Type of my_float:", type(my_float))
+print("Type of my_boolean:", type(my_boolean))
+"""
 
-    my_sum = 0
-    for i in range(3) :
-        total = add(1,2)
-        
-        my_sum += total
-        print("inside main : ",my_sum)
