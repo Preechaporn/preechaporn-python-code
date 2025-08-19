@@ -31,4 +31,4 @@ if __name__ == "__main__" :
         elif choice == '4':
             break
         else:
-            print("invaid value please enter 1-4")
+            print("invalid value please enter 1-4")
