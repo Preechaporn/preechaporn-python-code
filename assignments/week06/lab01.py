@@ -82,11 +82,12 @@ def count_vowels_consonants(text):
         if ch in vowel:
             vowels += 1
         elif ch == " ":
-            continue
+            continue      # text.replace(" ","") this can replace space and you can check texts clearly
         else :
             consonant += 1
     return { "vowels":vowels , "consonant":consonant }
     pass
+
 
 # =============================================================================
 # TEST SECTION - DO NOT MODIFY
