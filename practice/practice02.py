@@ -28,6 +28,14 @@ def search_student(sid):
     else :
         print(f"student {sid} doesn't exit")
 
+def search_with_data(data):
+    if data in students:
+        for sid,dat in students.items():
+            if dat == data:
+                print(student[sid])
+
+
+
 def show_all():
     if not students:
         print("don't have students data yet")

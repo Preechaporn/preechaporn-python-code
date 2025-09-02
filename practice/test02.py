@@ -1,61 +1,28 @@
 """
-first_name = input("Enter your first name: ")
-last_name = input("Enter your last name: ")
-print(f"Full name: {first_name *2} {last_name *2}")
+def i(age):
+    if age>0:
+        return "born"
+    
+a = []
+a.append(i(1))
+a.append(i(2))
+a.append(i(3))
+
+print(a)
 """
 
-"""
-my_string = "Hello Python"
-my_integer = 42
-my_float = 3.14
-my_boolean = False
-print("Type of my_string:", type(my_string))
-print("Type of my_integer:", type(my_integer))
-print("Type of my_float:", type(my_float))
-print("Type of my_boolean:", type(my_boolean))
-"""
+p = [1,2,3,4,5,]
 
-"""
-fruits = ["apple", "banana", "orange"]
+a = max(p)
+b = min(p)
+c = sum(p)/len(p)
+d_1 = []
 
-fruits[0:2] = ["pear", "cherry"]
-print(fruits)  # ['pear', 'cherry', 'orange']
+for i in p:
+    if i>1:
+        d_1.append(i)
 
-removed_fruit = fruits.pop()     # Remove and return last element
-print(f"Removed: {removed_fruit}")  # apple
-print(fruits)  # ['pear', 'cherry', 'orange', 'grape', 'kiwi']
-"""
-
-"""
-scores = {"Alice": 85, "Bob": 92, "Charlie": 78, "Diana": 96, "Eve": 89}
-
-print(f"Number of students: {len(scores)}")
-print(f"Is Alice in scores? {scores["Alice"]}")
-print(f"Is 'Frank' in scores? {'Frank' in scores}")
-"""
-
-"""
-subjects = ["Math", "Science", "English"]
-default_scores = dict.fromkeys(subjects, 0)
-print(f"Default scores: {default_scores}")
-"""
-
-"""
-text = input("Enter text: ")
-words = text.split()
-count = {}
-
-for w in words:
-    if w in count:
-        count[w] += 1
-    else:
-        count[w] = 1
-
-print(count)
-"""
-
-dict = {}
-string = ["hello"]
-for w in string:
-    dict[w] = 1
-    print(dict)
+print(a) 
+print(b)
+print(c)
+print(d_1)
