@@ -48,7 +48,7 @@ USE: len(), split(), count(), upper(), lower(), title(), slicing operations
 
 """
 def Char_Ana(text):
-    vowels = [a,e,i,o,u]
+    vowels = ['a','e','i','o','u']
     text_vowel = []
     all_text = []
     count_all_text = []
